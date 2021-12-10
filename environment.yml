@@ -1,0 +1,12 @@
+name: uk259
+
+dependencies:
+  - python=3.9
+  - scipy
+  - numpy
+  - matplotlib
+  - pandas
+  - scikit-learn
+#  - tensorflow
+  - jupyter
+  - graphviz
