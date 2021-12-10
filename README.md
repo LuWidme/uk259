@@ -28,3 +28,8 @@ Start **Jupyter-Lab** in the current directory:
 Your browser should open to a window like this:
 
 ![](img/Screenshot1.jpg)
+
+In Jupyter-Lab, open a terminal and type:
+`conda env list`
+Send a screenshot similar to the one below to __ to prove your installation worked
+![](img/Screenshot2.jpg)
