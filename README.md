@@ -21,6 +21,9 @@ The command prompt should have changed to something like this:
 
 `(uk259) C:\Work\ÜKs\259>`
 
+run:
+`ipython kernel install --user --name=uk259_kernel`
+
 Start **Jupyter-Lab** in the current directory:
 
 `jupyter-lab .`

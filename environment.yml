@@ -1,5 +1,7 @@
-name: uk259
-
+name: uk259_2
+channels:
+  - conda-forge
+  - defaults
 dependencies:
   - python=3.9
   - scipy
@@ -7,7 +9,10 @@ dependencies:
   - matplotlib
   - pandas
   - scikit-learn
-#  - tensorflow
+  - tensorflow
   - jupyter
-  - graphviz
   - seaborn
+  - ipykernel
+  - ipympl
+  - pydot 
+  - graphviz 
