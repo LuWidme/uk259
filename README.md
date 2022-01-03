@@ -1,14 +1,21 @@
-## Install anaconda package manager 
+## Install anaconda package manager
+
 **(Important! Install anaconda in a path without spaces (« »))**
 
-https://docs.anaconda.com/anaconda/install/ 
+https://docs.anaconda.com/anaconda/install/
 
-Help: https://medium.com/@GalarnykMichael/install-python-anaconda-on-windows-2020-f8e188f9a63d 
+Help: https://medium.com/@GalarnykMichael/install-python-anaconda-on-windows-2020-f8e188f9a63d
+
+_Be sure to select the option "Add Anaconda to my PATH environment variable" during installation_
 
 Test installation by running `conda -V`
-## Clone GitHub- Repo 
+
+## Clone GitHub- Repo
+
 [Github Repo](https://github.com/LuWidme/uk259)
+
 ## Install dependencies in an environment
+
 Navigate to the cloned directory and run:
 
 `conda env create --file environment.yml`
@@ -34,5 +41,5 @@ Your browser should open to a window like this:
 
 In Jupyter-Lab, open a terminal and type:
 `conda env list`
-Send a screenshot similar to the one below to __ to prove your installation worked
+Send a screenshot similar to the one below to \_\_ to prove your installation worked
 ![](img/Screenshot2.jpg)
