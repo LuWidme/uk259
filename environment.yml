@@ -1,4 +1,4 @@
-name: uk259_2
+name: uk259
 channels:
   - conda-forge
   - defaults
@@ -16,3 +16,4 @@ dependencies:
   - ipympl
   - pydot 
   - graphviz 
+  - nodejs=16.*
