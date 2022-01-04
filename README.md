@@ -8,11 +8,13 @@ Help: https://medium.com/@GalarnykMichael/install-python-anaconda-on-windows-202
 
 _Be sure to select the option "Add Anaconda to my PATH environment variable" during installation_
 
-Test installation by running `conda -V`
+Test your installation by running `conda -V`
 
-## Clone GitHub- Repo
+## Clone GitHub-Repo
 
-[Github Repo](https://github.com/LuWidme/uk259)
+[GitHub Repo](https://github.com/LuWidme/uk259)
+
+Navigate into the cloned directory.
 
 ## Install dependencies in an environment
 
@@ -31,15 +33,6 @@ The command prompt should have changed to something like this:
 run:
 `ipython kernel install --user --name=uk259_kernel`
 
-Start **Jupyter-Lab** in the current directory:
+Start **Visual Studio** in the current directory:
 
-`jupyter-lab .`
-
-Your browser should open to a window like this:
-
-![](img/Screenshot1.jpg)
-
-In Jupyter-Lab, open a terminal and type:
-`conda env list`
-Send a screenshot similar to the one below to \_\_ to prove your installation worked
-![](img/Screenshot2.jpg)
+`code .`
