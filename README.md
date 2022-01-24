@@ -1,3 +1,7 @@
+# üK 259 Machine Learning
+
+## Setup
+
 ## Install anaconda package manager
 
 **(Important! Install anaconda in a path without spaces (« »))**
@@ -10,11 +14,9 @@ _Be sure to select the option "Add Anaconda to my PATH environment variable" dur
 
 Test your installation by running `conda -V`
 
-## Clone GitHub-Repo
+## Clone the GitHub-Repo
 
 [GitHub Repo](https://github.com/LuWidme/uk259)
-
-Navigate into the cloned directory.
 
 ## Install dependencies in an environment
 
@@ -32,6 +34,8 @@ The command prompt should have changed to something like this:
 
 run:
 `ipython kernel install --user --name=uk259_kernel`
+
+## Get started
 
 Start **Visual Studio** in the current directory:
 
