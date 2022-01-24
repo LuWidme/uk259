@@ -36,3 +36,9 @@ run:
 Start **Visual Studio** in the current directory:
 
 `code .`
+
+Alternativiely, you can use **JupyterLab**:
+
+`jupyter-lab .`
+
+Your browser should open to a online IDE.
