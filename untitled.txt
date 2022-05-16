@@ -1,6 +1,0 @@
-
-potentially usefull commands
-
-to install 3D draggable rendering
-conda install -c conda-forge nodejs 16
-jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-matplotlib
