@@ -47,9 +47,8 @@ Alternativiely, you can use **JupyterLab**:
 
 Your browser should open to a online IDE.
 
-
 ## Potentially usefull commands
 
 To install 3D draggable rendering:
 `conda install -c conda-forge nodejs 16`
-jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-matplotlib
+`jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-matplotlib`
