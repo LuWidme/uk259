@@ -16,4 +16,8 @@ dependencies:
   - ipympl
   - pydot 
   - graphviz 
-  - nodejs=16.*
+  #- nodejs=16.*
+
+
+# conda activate uk259
+# conda env update --file environment.yml --prune
