@@ -45,7 +45,7 @@ conda activate uk259
 
 **Step 5:** Verify installation (run the verification notebook)
 ```bash
-jupyter notebook demos/00_setup_verification.ipynb
+jupyter notebook demos/01_setup_verification.ipynb
 ```
 
 ### Option 2: Using pip + venv (Alternative Method)
@@ -79,7 +79,7 @@ pip install -r requirements.txt
 
 **Step 4:** Verify installation
 ```bash
-jupyter notebook demos/00_setup_verification.ipynb
+jupyter notebook demos/01_setup_verification.ipynb
 ```
 
 ### Option 3: Using Docker (Advanced)
@@ -131,6 +131,8 @@ jupyter notebook
 
 Open and run: `demos/00_course_introduction.ipynb`
 
+This notebook covers the fundamentals of NumPy and Pandas that you'll need for the rest of the course.
+
 ---
 
 ## Troubleshooting
@@ -167,6 +169,8 @@ Open and run: `demos/00_course_introduction.ipynb`
 ```
 uk259/
 ├── demos/              # Instructional notebooks
+│   ├── 00_setup_verification.ipynb
+│   ├── 00_course_introduction.ipynb  # START HERE
 │   ├── 01_NumPyIntro.ipynb
 │   ├── 02_PandasIntro.ipynb
 │   ├── 03_Data_Preprocessing.ipynb
@@ -175,6 +179,8 @@ uk259/
 │   ├── 05_SupervisedML_LinearRegression.ipynb
 │   ├── 06_NeuralNetworks.ipynb
 │   └── ...
+├── solutions/          # Exercise solutions
+│   └── 00_course_introduction_solutions.ipynb
 ├── datasets/           # Sample datasets
 ├── img/                # Images for notebooks
 ├── environment.yml     # Conda environment
@@ -184,11 +190,26 @@ uk259/
 
 ---
 
+## Working with Exercises
+
+Many notebooks include hands-on exercises to practice your skills. Here's how to approach them:
+
+1. **Try the exercises yourself first** - The best way to learn is by doing
+2. **Exercises use placeholder syntax** - You'll see `variable = ?` which will cause errors until you write the correct code
+3. **Read the hints** - Each task includes hints to guide you
+4. **Check solutions when needed** - Solutions are in the `solutions/` folder
+5. **Understand, don't copy** - Solutions include explanations to help you learn
+
+**Important:** Solutions are learning tools, not answer keys. Try to solve exercises independently before checking solutions!
+
+---
+
 ## Additional Resources
 
 - **ML Glossary:** See `ML_GLOSSARY.md` for term definitions
 - **Course Feedback:** See `COURSE_FEEDBACK.md` for detailed analysis
 - **Datasets:** See `Showcase Datasets.ipynb` for available datasets
+- **Exercise Solutions:** Check the `solutions/` folder after attempting exercises
 
 ### External Learning Resources
 
