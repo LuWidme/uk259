@@ -33,7 +33,8 @@ git clone https://github.com/LuWidme/uk259
 cd uk259
 ```
 
-**Step 3:** Create the environment
+**Step 3:** Create the environment. use the anaconda prompt shell to run the following comands
+
 ```bash
 conda env create -f environment.yml
 ```
