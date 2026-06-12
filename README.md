@@ -28,6 +28,7 @@ Optional, more advanced notebooks in `demos/advanced/`:
 
 | Notebook | Topic |
 |----------|-------|
+| [Bonus: Advanced Seaborn & Marathon Case Study](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/advanced/Bonus_Seaborn_Advanced.ipynb) | Violin plots, KDE, faceting — plus a 40k-runner case study |
 | [Bonus: PCA — Dimensionality Reduction](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/advanced/Bonus_PCA_Dimensionality_Reduction.ipynb) | Compressing data for visualization |
 | [Bonus: PCA from Scratch](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/advanced/Bonus_PCA_from_Scratch.ipynb) | The math behind PCA, step by step |
 
