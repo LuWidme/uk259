@@ -37,7 +37,7 @@ Optional, more advanced notebooks in `demos/advanced/`:
 
 ```
 uk259/
-├── demos/              # Course notebooks (01–09), work through these in order
+├── demos/              # Course notebooks (01–10), work through these in order
 │   └── advanced/       # Optional bonus notebooks
 ├── solutions/          # Solutions for the exercises (try first, then peek!)
 │   └── advanced/       # Solutions for the bonus notebooks
@@ -48,6 +48,10 @@ uk259/
 ## Solutions
 
 Every exercise notebook has a matching solutions notebook in `solutions/`. **Try the exercises yourself first** — you learn far more from struggling for 15 minutes than from reading the answer. See [solutions/README.md](solutions/README.md) for guidelines.
+
+## Glossary
+
+New ML term you don't recognize? Look it up in [ML_GLOSSARY.md](ML_GLOSSARY.md) — every technical term used in the notebooks, explained in plain English (intuition first).
 
 ## Prerequisites
 
