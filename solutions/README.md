@@ -41,8 +41,9 @@ This folder contains solutions to exercises from the course notebooks.
 | Bonus: SVM | `advanced/06_5_Support_Vector_Machines_solutions.ipynb` |
 | Bonus: PCA Dimensionality Reduction | `advanced/Bonus_PCA_Dimensionality_Reduction_solutions.ipynb` |
 | Bonus: PCA from Scratch | `advanced/Bonus_PCA_from_Scratch_solutions.ipynb` |
+| 10 Project — reference example | `10_Project_Example_BreastCancer_solutions.ipynb` |
 
-The 10 Project Template is an open-ended project, so it has no fixed solution — the rubric in `demos/PROJECT_RUBRIC.md` defines what a good submission looks like.
+The 10 Project Template is an open-ended project, so it has no single fixed solution. As an instructor aid, `10_Project_Example_BreastCancer_solutions.ipynb` shows one complete worked run (Breast Cancer dataset, PCA in preprocessing) through all six milestones — the rubric in `demos/PROJECT_RUBRIC.md` defines what a good submission looks like.
 
 ## Understanding Solutions
 
