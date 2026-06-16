@@ -23,6 +23,7 @@ tensorflow>=2.15.0
 # Modern ML tools (HuggingFace)
 transformers>=4.30.0
 datasets>=2.14.0
+torch>=2.0.0  # Required by transformers even when using TF models (bug workaround)
 
 # Statistical modeling
 statsmodels>=0.14.0
