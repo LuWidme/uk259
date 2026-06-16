@@ -35,10 +35,11 @@ This folder contains solutions to exercises from the course notebooks.
 | 06 Classification | `06_Classification_solutions.ipynb` |
 | 07 Regression | `07_Regression_solutions.ipynb` |
 | 08 Neural Networks | `08_Neural_Networks_solutions.ipynb` |
+| 09 HuggingFace Transformers | `09_HuggingFace_Transformers_solutions.ipynb` |
 | Bonus: PCA Dimensionality Reduction | `advanced/Bonus_PCA_Dimensionality_Reduction_solutions.ipynb` |
 | Bonus: PCA from Scratch | `advanced/Bonus_PCA_from_Scratch_solutions.ipynb` |
 
-Solutions for 03 Data Visualization and 09 HuggingFace Transformers are in the works.
+Solutions for 01 Colab Intro and 03 Data Visualization are in the works.
 
 ## Understanding Solutions
 
