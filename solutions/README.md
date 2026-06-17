@@ -27,9 +27,23 @@ This folder contains solutions to exercises from the course notebooks.
 
 ## Available Solutions
 
-- `00_course_introduction_solutions.ipynb` - Solutions for all 12 tasks in the course introduction
-  - Tasks 1-5: NumPy exercises
-  - Tasks 6-12: Pandas exercises with the Titanic dataset
+| Course notebook | Solutions notebook |
+|---|---|
+| 01 Colab Intro & Setup Check | `01_Colab_Intro_and_Setup_Check_solutions.ipynb` |
+| 02 NumPy & Pandas | `02_NumPy_and_Pandas_solutions.ipynb` |
+| 03 Data Visualization | `03_Data_Visualization_solutions.ipynb` |
+| 04 Data Preprocessing | `04_Data_Preprocessing_solutions.ipynb` |
+| 05 Clustering K-Means | `05_Clustering_KMeans_solutions.ipynb` |
+| 06 Classification | `06_Classification_solutions.ipynb` |
+| 07 Regression | `07_Regression_solutions.ipynb` |
+| 08 Neural Networks | `08_Neural_Networks_solutions.ipynb` |
+| 09 HuggingFace Transformers | `09_HuggingFace_Transformers_solutions.ipynb` |
+| Bonus: SVM | `advanced/06_5_Support_Vector_Machines_solutions.ipynb` |
+| Bonus: PCA Dimensionality Reduction | `advanced/Bonus_PCA_Dimensionality_Reduction_solutions.ipynb` |
+| Bonus: PCA from Scratch | `advanced/Bonus_PCA_from_Scratch_solutions.ipynb` |
+| 10 Project — reference example | `10_Project_Example_BreastCancer_solutions.ipynb` |
+
+The 10 Project Template is an open-ended project, so it has no single fixed solution. As an instructor aid, `10_Project_Example_BreastCancer_solutions.ipynb` shows one complete worked run (Breast Cancer dataset, PCA in preprocessing) through all six milestones — the rubric in `demos/PROJECT_RUBRIC.md` defines what a good submission looks like.
 
 ## Understanding Solutions
 

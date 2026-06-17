@@ -1,230 +1,87 @@
-# üK 259 Machine Learning
+# üK 259 — Introduction to Machine Learning
 
-A comprehensive 5-day course covering fundamental machine learning concepts from data analysis to neural networks.
+A hands-on 5-day course covering machine learning fundamentals — from working with data to neural networks and modern language models. Designed for programming beginners with little math background: **intuition before formulas**.
 
-## Course Overview
+## How to Use This Course (Google Colab — no installation needed)
 
-- **Day 1:** Python fundamentals (NumPy, Pandas)
-- **Day 2:** Unsupervised ML (Clustering, Dimensionality Reduction)
-- **Day 3:** Supervised ML (Classification, Regression)
-- **Day 4:** Neural Networks (TensorFlow/Keras)
-- **Day 5:** Project work with real datasets
+All notebooks run in [Google Colab](https://colab.research.google.com), free of charge, directly in your browser. You only need a Google account.
 
-## Prerequisites
+1. Click the **"Open in Colab"** badge at the top of any notebook (links below).
+2. Run the **setup cell** at the top of the notebook first — it installs the required packages and downloads the course datasets automatically.
+3. Work through the notebook top to bottom. Exercise placeholders look like `= ?` or `# TODO` — fill them in yourself before checking the solutions.
 
-- Basic programming knowledge
-- Understanding of high school mathematics
-- No prior machine learning experience required
-
----
-
-## Setup Instructions
-
-### Option 1: Using Conda (Recommended for Beginners)
-
-**Step 1:** Install Miniconda (lighter than Anaconda)
-- Download from: https://docs.conda.io/en/latest/miniconda.html
-- Follow the installer instructions
-- **No special path requirements needed**
-
-**Step 2:** Clone this repository
-```bash
-git clone https://github.com/LuWidme/uk259
-cd uk259
-```
-
-**Step 3:** Create the environment. use the anaconda prompt shell to run the following comands
-
-```bash
-conda env create -f environment.yml
-```
-
-**Step 4:** Activate the environment
-```bash
-conda activate uk259
-```
-
-**Step 5:** Verify installation (run the verification notebook)
-```bash
-jupyter notebook demos/01_setup_verification.ipynb
-```
-
-### Option 2: Using pip + venv (Alternative Method)
-
-**Step 1:** Clone the repository
-```bash
-git clone https://github.com/LuWidme/uk259
-cd uk259
-```
-
-**Step 2:** Create virtual environment
-```bash
-# Windows
-python -m venv uk259_env
-uk259_env\Scripts\activate
-
-# macOS/Linux
-python3 -m venv uk259_env
-source uk259_env/bin/activate
-```
-
-**Step 3:** Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-**Note:** You may need to install graphviz separately:
-- **Windows:** `choco install graphviz` (requires Chocolatey)
-- **macOS:** `brew install graphviz`
-- **Linux:** `sudo apt-get install graphviz`
-
-**Step 4:** Verify installation
-```bash
-jupyter notebook demos/01_setup_verification.ipynb
-```
-
-### Option 3: Using Docker (Advanced)
-
-**Step 1:** Create a Dockerfile
-```dockerfile
-FROM python:3.11-slim
-WORKDIR /workspace
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-COPY . .
-CMD ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root", "--no-browser"]
-```
-
-**Step 2:** Build and run
-```bash
-docker build -t uk259-ml .
-docker run -p 8888:8888 -v ${PWD}:/workspace uk259-ml
-```
-
----
-
-## Getting Started
-
-### Launch Jupyter
-
-**Option A: JupyterLab (Recommended)**
-```bash
-jupyter-lab
-```
-
-**Option B: Classic Notebook**
-```bash
-jupyter notebook
-```
-
-**Option C: PyCharm**
-1. Open PyCharm and select "Open" from the welcome screen
-2. Navigate to the `uk259` folder and open it
-3. PyCharm should automatically detect the conda environment
-4. If not, go to: **File → Settings → Project → Python Interpreter**
-5. Click the gear icon → **Add Interpreter → Conda Environment**
-6. Select **Existing environment** and choose `uk259`
-7. Open any `.ipynb` file - PyCharm has built-in Jupyter notebook support
-
-**Tip:** PyCharm Professional has better Jupyter support. Community Edition works but with limited features.
-
-### Start with the Introduction
-
-Open and run: `demos/00_course_introduction.ipynb`
-
-This notebook covers the fundamentals of NumPy and Pandas that you'll need for the rest of the course.
-
----
-
-## Troubleshooting
-
-### Common Issues
-
-**Issue:** `conda: command not found`
-- **Solution:** Restart your terminal after installing Miniconda, or add conda to PATH
-
-**Issue:** `No module named 'tensorflow'`
-- **Solution:** Ensure you've activated the environment: `conda activate uk259`
-
-**Issue:** TensorFlow GPU not working
-- **Solution:** This course uses CPU version. For GPU, see [TensorFlow GPU installation](https://www.tensorflow.org/install/gpu)
-
-**Issue:** Kernel not showing in Jupyter/PyCharm
-- **Solution:** Run `python -m ipykernel install --user --name uk259 --display-name "Python (uk259)"`
-- **In PyCharm:** Go to Settings → Project → Python Interpreter and select the uk259 conda environment
-
-**Issue:** ImportError with graphviz
-- **Solution:** Install system graphviz package (see Option 2, Step 3 above)
-
-### Still Having Problems?
-
-1. Check that Python version is 3.11+: `python --version`
-2. Verify packages installed: `pip list` or `conda list`
-3. Run the verification notebook: `demos/00_setup_verification.ipynb`
-4. Check [Issues](https://github.com/LuWidme/uk259/issues) for similar problems
-
----
+> **Tip:** Save a copy to your own Google Drive (*File → Save a copy in Drive*) so your work persists.
 
 ## Course Structure
 
+| Day | Topic | Notebooks |
+|-----|-------|-----------|
+| 1 | Onboarding & Data | [01 Colab Intro & Setup Check](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/01_Colab_Intro_and_Setup_Check.ipynb) · [02 NumPy & Pandas](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/02_NumPy_and_Pandas.ipynb) · [03 Data Visualization](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/03_Data_Visualization.ipynb) |
+| 2 | Preparing Data & First ML | [04 Data Preprocessing](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/04_Data_Preprocessing.ipynb) · [05 Clustering with K-Means](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/05_Clustering_KMeans.ipynb) |
+| 3 | Supervised Learning | [06 Classification](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/06_Classification.ipynb) · [07 Regression](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/07_Regression.ipynb) |
+| 4 | Neural Networks & Modern ML | [08 Neural Networks](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/08_Neural_Networks.ipynb) · [09 HuggingFace Transformers](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/09_HuggingFace_Transformers.ipynb) |
+| 5 | Project | [10 Project Template](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/10_Project_Template.ipynb) — guided full-day project: pick a dataset, build & evaluate a model, present in 5 minutes ([rubric](demos/PROJECT_RUBRIC.md)) |
+
+### Bonus Material (for fast learners)
+
+Optional, more advanced notebooks in `demos/advanced/`:
+
+| Notebook | Topic |
+|----------|-------|
+| [Bonus: Advanced Seaborn & Marathon Case Study](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/advanced/Bonus_Seaborn_Advanced.ipynb) | Violin plots, KDE, faceting — plus a 40k-runner case study |
+| [Bonus: Support Vector Machines (SVM)](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/advanced/06_5_Support_Vector_Machines.ipynb) | A third classification algorithm — maximum-margin boundaries and kernels |
+| [Bonus: PCA — Dimensionality Reduction](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/advanced/Bonus_PCA_Dimensionality_Reduction.ipynb) | Compressing data for visualization |
+| [Bonus: PCA from Scratch](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/advanced/Bonus_PCA_from_Scratch.ipynb) | The math behind PCA, step by step |
+
+## Repository Layout
+
 ```
 uk259/
-├── demos/              # Instructional notebooks
-│   ├── 00_setup_verification.ipynb
-│   ├── 00_course_introduction.ipynb  # START HERE
-│   ├── 01_NumPyIntro.ipynb
-│   ├── 02_PandasIntro.ipynb
-│   ├── 03_Data_Preprocessing.ipynb
-│   ├── 04_Clustering_with_KMeans.ipynb
-│   ├── 05_SupervisedML_Classification.ipynb
-│   ├── 05_SupervisedML_LinearRegression.ipynb
-│   ├── 06_NeuralNetworks.ipynb
-│   └── ...
-├── solutions/          # Exercise solutions
-│   └── 00_course_introduction_solutions.ipynb
-├── datasets/           # Sample datasets
-├── img/                # Images for notebooks
-├── environment.yml     # Conda environment
-├── requirements.txt    # Pip requirements
-└── README.md          # This file
+├── demos/              # Course notebooks (01–10), work through these in order
+│   └── advanced/       # Optional bonus notebooks
+├── solutions/          # Solutions for the exercises (try first, then peek!)
+│   └── advanced/       # Solutions for the bonus notebooks
+├── datasets/           # Course datasets (downloaded automatically in Colab)
+└── img/                # Images used in the notebooks
 ```
 
----
+## Solutions
 
-## Working with Exercises
+Every exercise notebook has a matching solutions notebook in `solutions/`. **Try the exercises yourself first** — you learn far more from struggling for 15 minutes than from reading the answer. See [solutions/README.md](solutions/README.md) for guidelines.
 
-Many notebooks include hands-on exercises to practice your skills. Here's how to approach them:
+## Glossary
 
-1. **Try the exercises yourself first** - The best way to learn is by doing
-2. **Exercises use placeholder syntax** - You'll see `variable = ?` which will cause errors until you write the correct code
-3. **Read the hints** - Each task includes hints to guide you
-4. **Check solutions when needed** - Solutions are in the `solutions/` folder
-5. **Understand, don't copy** - Solutions include explanations to help you learn
+New ML term you don't recognize? Look it up in [ML_GLOSSARY.md](ML_GLOSSARY.md) — every technical term used in the notebooks, explained in plain English (intuition first).
 
-**Important:** Solutions are learning tools, not answer keys. Try to solve exercises independently before checking solutions!
+## Prerequisites
 
----
-
-## Additional Resources
-
-- **ML Glossary:** See `ML_GLOSSARY.md` for term definitions
-- **Course Feedback:** See `COURSE_FEEDBACK.md` for detailed analysis
-- **Datasets:** See `Showcase Datasets.ipynb` for available datasets
-- **Exercise Solutions:** Check the `solutions/` folder after attempting exercises
-
-### External Learning Resources
-
-- [Scikit-learn Documentation](https://scikit-learn.org/)
-- [TensorFlow Tutorials](https://www.tensorflow.org/tutorials)
-- [HuggingFace Course](https://huggingface.co/learn)
-- [3Blue1Brown Neural Networks](https://www.youtube.com/watch?v=aircAruvnKk)
+- Basic programming knowledge (variables, loops, functions — any language)
+- No prior machine learning experience required
+- No advanced math required — concepts are introduced visually and intuitively
 
 ---
 
-## Contributing
+## Appendix: Local Setup (optional)
 
-Found an issue or want to improve the course? Please open an issue or submit a pull request!
+You only need this if you prefer working locally instead of Colab.
 
-## License
+**Option A — Conda:**
 
-This course material is provided for educational purposes.
+```bash
+git clone https://github.com/LuWidme/uk259
+cd uk259
+conda env create -f environment.yml
+conda activate uk259
+jupyter notebook
+```
+
+**Option B — pip:**
+
+```bash
+git clone https://github.com/LuWidme/uk259
+cd uk259
+pip install -r requirements.txt
+jupyter notebook
+```
+
+Note: notebook 08 additionally needs TensorFlow, notebook 09 needs `transformers` and `datasets`. The setup cell in each notebook installs everything it needs.
