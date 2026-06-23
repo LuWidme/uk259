@@ -20,7 +20,7 @@ All notebooks run in [Google Colab](https://colab.research.google.com), free of 
 | 2 | Preparing Data & First ML | [04 Data Preprocessing](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/04_Data_Preprocessing.ipynb) · [05 Clustering with K-Means](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/05_Clustering_KMeans.ipynb) |
 | 3 | Supervised Learning | [06 Classification](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/06_Classification.ipynb) · [07 Regression](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/07_Regression.ipynb) |
 | 4 | Neural Networks & Modern ML | [08 Neural Networks](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/08_Neural_Networks.ipynb) · [09 HuggingFace Transformers](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/09_HuggingFace_Transformers.ipynb) |
-| 5 | Project | [10 Project Template](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/10_Project_Template.ipynb) — guided full-day project: pick a dataset, build & evaluate a model, present in 5 minutes ([rubric](demos/PROJECT_RUBRIC.md)) |
+| 5 | Project | [10 Project Template](https://colab.research.google.com/github/LuWidme/uk259/blob/rework/demos/10_Project_Template.ipynb) — guided full-day project: pick a dataset, build & evaluate a model, present in 5 minutes  |
 
 ### Bonus Material (for fast learners)
 
